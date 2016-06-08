@@ -33,4 +33,8 @@ class StaffMember < Person
     end
     response
   end
+
+  def teach_stuff
+    self.class::RESPONSE
+  end
 end
